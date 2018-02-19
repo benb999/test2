@@ -244,8 +244,11 @@ small {
     border-color: rgba(255, 170, 0, 0.5);
 }
 
-/*.top-nav-bg li.active .left-corners:before, .top-nav-bg li.active .left-corners:after, .top-nav-bg li.active .right-corners:before, .top-nav-bg li.active .right-corners:after{
-  content: url(../img/y-glow-top-left-corner.png?v=1.8.1);
+/*.top-nav-bg li.active .left-corners:before,
+.top-nav-bg li.active .left-corners:after,
+.top-nav-bg li.active .right-corners:before,
+.top-nav-bg li.active .right-corners:after {
+    content: url(../img/y-glow-top-left-corner.png?v=1.8.1);
 }*/
 .top-nav-bg li.active .left-corners:before {
     top: -13px;
@@ -404,14 +407,17 @@ small {
     height: 100%;
     z-index: 1;
     position: relative;
+    background: rgb(3,22,29);
 
-    /*background: rgb(3,22,29)*/
     /* Old browsers */
-    /*background: -moz-linear-gradient(left, rgba(3,22,29,1) 2%, rgba(5,35,46,1) 51%, rgba(4,21,28,1) 99%)*/
+    background: -moz-linear-gradient(left, rgba(3,22,29,1) 2%, rgba(5,35,46,1) 51%, rgba(4,21,28,1) 99%);
+
     /* FF3.6-15 */
-    /*background: -webkit-linear-gradient(left, rgba(3,22,29,1) 2%,rgba(5,35,46,1) 51%,rgba(4,21,28,1) 99%)*/
+    background: -webkit-linear-gradient(left, rgba(3,22,29,1) 2%,rgba(5,35,46,1) 51%,rgba(4,21,28,1) 99%);
+
     /* Chrome10-25,Safari5.1-6 */
-    /*background: linear-gradient(to right, rgba(3,22,29,1) 2%,rgba(5,35,46,1) 51%,rgba(4,21,28,1) 99%)*/
+    background: linear-gradient(to right, rgba(3,22,29,1) 2%,rgba(5,35,46,1) 51%,rgba(4,21,28,1) 99%);
+
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03161d', endColorstr='#04151c',GradientType=1 );
 
